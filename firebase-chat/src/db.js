@@ -1,7 +1,7 @@
-import firebase from "firebase/app";
+import { initializeApp } from "firebase/app";
 import "firebase/database";
 
-const config = {
+const firebaseConfig = {
     apiKey: "AIzaSyAW-Iiw-Ib7aK0sa3bK3mgk3ZimKJtRxVA",
     authDomain: "firevuechat-42db2.firebaseapp.com",
     projectId: "firevuechat-42db2",
@@ -10,5 +10,5 @@ const config = {
     appId: "1:456093947356:web:215e19db94a0c09049eb19"
 }
 
-const db = firebase.initializeApp(config);
+const db = initializeApp(firebaseConfig);
 export default db;
