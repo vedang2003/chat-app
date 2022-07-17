@@ -15,14 +15,14 @@ const routes = [
         path: '/register',
         name: 'Register',
         component: () =>
-            import(/* webpackChunkName: "about" */ '../views/About.vue'),
+            import( '../views/About.vue'),
     },
     {
         path: '/dashboard',
         name: 'Dashboard',
         component: () =>
             import(
-                /* webpackChunkName: "dashboard" */ '../views/Dashboard.vue'
+               '../views/Dashboard.vue'
             ),
         meta: {
             authRequired: true,

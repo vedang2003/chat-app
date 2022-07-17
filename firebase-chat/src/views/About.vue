@@ -20,7 +20,7 @@
 import firebase from 'firebase';
 
 export default {
-    name: 'Register',
+    name: "registerC",
     data() {
         return {
             email: '',

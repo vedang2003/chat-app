@@ -18,10 +18,10 @@
 </template>
 
 <script>
-import firebase from 'firebase';
+import firebase from "firebase";
 
 export default {
-    name: 'Home',
+    name: "homeC",
     data() {
         return {
             email: '',
@@ -34,8 +34,8 @@ export default {
                 .auth()
                 .signInWithEmailAndPassword(this.email, this.password)
                 .then(() => {
-                    alert('Successfully logged in');
-                    this.$router.push('/dashboard');
+                    alert("Successfully logged in");
+                    this.$router.push("/dashboard");
                 })
                 .catch(error => {
                     alert(error.message);

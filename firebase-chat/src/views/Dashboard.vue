@@ -7,8 +7,13 @@
 
 <script>
 export default {
-    name: 'Dashboard',
+    name: "DashboardC",
 };
+{
+  "vue/multi-word-component-names"; ["error", {
+    "ignores": []
+  }]
+}
 </script>
 
 <style lang="scss" scoped></style>
