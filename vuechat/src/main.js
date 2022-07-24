@@ -14,6 +14,7 @@ Vue.use(IconsPlugin)
 Vue.config.productionTip = false
 
 const router = new VueRouter({
+        /* eslint-disable no-new */
         routes: Routes,
         mode: 'history'
     })
