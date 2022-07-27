@@ -80,7 +80,6 @@ export default {
           }
         );
       } else {
-        // if user only wants to update his/her name and desc
         this.updateUserInfo(false, null);
       }
     },
